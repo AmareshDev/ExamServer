@@ -32,6 +32,8 @@ public class UserController {
         userrole.setRole(role);
         roles.add(userrole);
         return this.userService.CreateUser(user,roles);
+
+
     }
     //get user through username
     @GetMapping("/{username}")
