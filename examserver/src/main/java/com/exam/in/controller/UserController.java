@@ -45,6 +45,8 @@ public class UserController {
 
 
         //sangram
+
+        //amaresh
     }
     //get user through email
     @GetMapping("/email/{emailp}")
