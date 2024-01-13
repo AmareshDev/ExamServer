@@ -31,6 +31,8 @@ public class UserController {
         userrole.setUser(user);
         userrole.setRole(role);
         roles.add(userrole);
+
+
         return this.userService.CreateUser(user,roles);
 
 
