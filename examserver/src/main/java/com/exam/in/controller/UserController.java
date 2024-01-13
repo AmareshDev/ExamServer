@@ -34,7 +34,6 @@ public class UserController {
 
 
         return this.userService.CreateUser(user,roles);
-///afshjgvjagfvjhgfadsfhashfv
 
     }
     //get user through username
