@@ -41,6 +41,10 @@ public class UserController {
     public ResponseEntity<User> getUser(@PathVariable String username ){
         User user1=  this. userService.getUser(username);
         return new ResponseEntity<User>(user1, HttpStatus.OK);
+
+
+
+        //sangram
     }
     //get user through email
     @GetMapping("/email/{emailp}")
